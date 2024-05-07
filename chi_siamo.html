@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Nao - Chi Siamo ?</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/anim.css">
+    <link rel="shortcut icon" href="./img/logo/logopng.png" type="image/x-icon">
+</head>
+<body class="font-primary">
+    <div class="flex flex-col min-h-screen w-full">
+        <header class="bg-MyGreen-100">
+            <nav class="max-w-screen-xl flex flex-wrap items-center justify-between sm:mx-auto py-1 px-6">
+            <img src="img/logo/logoWhite.png" alt="logo" class="w-20 h-20 z-50" />
+            <button id="btnMenu" class="sm:hidden" onclick="showMenu()">
+                <i class='bx bx-menu text-4xl text-white'></i>
+              </button>
+              <div class="hidden w-full sm:block sm:w-auto" id="menu">  
+                <ul class="flex flex-col sm:flex-row p-2 gap-6 text-white font-semibold text-sm md:text-xl ">
+                    <li class="li-menu"><a href="/">Home</a></li>
+                    <li>Chi Siamo</li>
+                    <li class="li-menu"><a href="./scopri_il_progetto.html">Scopri il progetto</a></li>
+                    <li class="li-menu"><a href="./contattaci.html">Contattaci</a></li>
+                    <li class="li-menu"><a href="./team.html">Il team</a></li>
+                </ul> 
+                </div>
+            </nav>
+        </header>
+        <main class="flex-grow bg-house">
+            <section id="hero" class="flex flex-col justify-center text-center">
+                <h1 class=" nascosto text-MyGreen-200 text-5xl md:text-7xl lg:text-9xl font-extrabold mt-10 md:mt-20 drop-shadow-lg">Chi Siamo</h1>
+                <h2 id="elemento1" class=" nascosto text-xl md:text-3xl lg:text-5xl font-semibold text-MyGreen-200 drop-shadow-lg">Scopri il progetto HOUSE NAO</h2>
+                
+                <section id="elemento2" class="nascosto">
+                    <div class="card">
+                        <div class="w-full lg:w-1/2">
+                            <h2 class="text-2xl md:text-3xl lg:text-5xl font-semibold text-MyGreen-200 drop-shadow-lg my-4">Il team</h2>
+                            <p class="text-justify p-4 text-lg md:text-xl">
+                                Siamo un gruppo di ragazzi della classe 3E informatica dell'istituto Cannizzaro di Rho. Il team è composito da nove membri che lavorano all'unisono per la realizzazione del progetto.
+                            </p>
+                            <div class="btn-primary w-20 p-2"><a href="./contattaci.html">
+                                Noi</a></div>
+                        </div>
+                        <div class="w-full lg:w-1/2 flex justify-center">
+                            <img class="rounded-3xl w-auto" src="./img/gruppo.jfif" alt="" />
+                        </div>
+                    </div>
+                </section>
+
+                <section id="elemento3" class="nascosto">
+                    <div class="card-reverse">
+                        <div class="w-full lg:w-1/2 flex justify-center items-center">
+                            <img class="rounded-3xl w-80 lg:w-96" src="img/logo/logopng.png" alt="" />
+                        </div>
+                        <div class="w-full lg:w-1/2">
+                            <h2 class="text-2xl md:text-3xl lg:text-5xl font-semibold text-MyGreen-200 drop-shadow-lg my-4">Il progetto</h2>
+                            <p class="text-justify p-4 text-lg md:text-xl">
+                                House Nao è un progetto che consiste nell'implementare il robot NAO nell'industria imobiliare il robot sarà in grado di misurare l'altezza delle stanze, stabilendo se sono in regola, capire qual è la zona più fredda della casa e seguire un tour guidato della struttura.
+                            </p>
+                            <div class="btn-primary w-fit p-2"><a href="./scopri_il_progetto.html">
+                                Scopri di più</a></div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="nascosto">
+                    <div class="card">
+                        <div class="w-full lg:w-1/2">
+                            <h2 class="text-2xl md:text-3xl lg:text-5xl font-semibold text-MyGreen-200 drop-shadow-lg my-4">Social</h2>
+                            <p class="text-justify p-4 text-lg md:text-xl">
+                                Seguici sui social per rimanere sempre aggiornato e contattaci per avere un confronto diretto con noi.
+                            </p>
+                            <div class="btn-primary w-fit p-2"><a href="./contattaci.html">
+                                Contattaci</a></div>
+                        </div>
+                        <div class="w-full lg:w-1/2 flex justify-center">
+                            <img class="rounded-3xl w-auto" src="./img/internet.png" alt="" />
+                        </div>
+                    </div>
+                </section>
+
+                <section id="elemento1" class="nascosto">
+                    <div class="card-reverse">
+                        <div class="w-full lg:w-1/2 flex justify-center items-center">
+                            <img class="rounded-3xl w-80 lg:w-96" src="img/note.png" alt="" />
+                        </div>
+                        <div class="w-full lg:w-1/2">
+                            <h2 class="text-2xl md:text-3xl lg:text-5xl font-semibold text-MyGreen-200 drop-shadow-lg my-4">La song</h2>
+                            <p class="text-justify p-4 text-lg md:text-xl">
+                                Ascoltate la canzone ufficiale di House Nao, un pezzo instrumental realizzato dai membri di House Nao.
+                            </p>
+                            <div class="btn-primary w-fit p-2"><a href="https://www.youtube.com/watch?v=cMCjkbsyPT4" target="_blank">
+                                Ascolta</a></div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </main>
+        <footer>
+            <ul class="flex justify-center items-center gap-7 bg-MyGreen-200 p-10 text-slate-300 text-sm md:text-xl lg:text-2xl">
+                <li>3E Informatica</li>
+                <li class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"><a href="https://maps.app.goo.gl/fsLNdSbDr9c7TAaU8" target="_blank">ITIS Cannizzaro</a></li>
+                <li>C.O.: Radovix Immobiliare</li>
+            </ul>
+        </footer>
+    </div>
+    <script defer src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Nao - Contattaci</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="./img/logo/logopng.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/anim.css">
+</head>
+<body class="font-primary">
+    <div class="flex flex-col min-h-screen w-full">
+        <header class="bg-MyGreen-100">
+            <nav class="max-w-screen-xl flex flex-wrap items-center justify-between sm:mx-auto py-1 px-6">
+            <img src="img/logo/logoWhite.png" alt="logo" class="w-20 h-20 z-50" />
+            <button id="btnMenu" class="sm:hidden" onclick="showMenu()">
+                <i class='bx bx-menu text-4xl text-white'></i>
+              </button>
+              <div class="hidden w-full sm:block sm:w-auto" id="menu">  
+                <ul class="flex flex-col sm:flex-row p-2 gap-6 text-white font-semibold text-sm md:text-xl ">
+                    <li class="li-menu"><a href="/">Home</a></li>
+                    <li class="li-menu"><a href="./chi_siamo.html">Chi Siamo</a></li>
+                    <li class="li-menu"><a href="./scopri_il_progetto.html">Scopri il progetto</a></li>
+                    <li>Contattaci</li>
+                    <li class="li-menu"><a href="./team.html">Il team</a></li>
+                </ul> 
+                </div>
+            </nav>
+        </header>
+        <main class="flex-grow bg-house">
+            <section id="hero" class="flex flex-col justify-center text-center">
+                <h1 class="nascosto text-MyGreen-200 text-5xl md:text-7xl lg:text-9xl font-extrabold mt-10 md:mt-20 drop-shadow-lg">Contattaci</h1>
+                <h2 id="elemento1" class="nascosto text-xl md:text-3xl lg:text-5xl font-semibold text-MyGreen-200 drop-shadow-lg">Scopri House Nao sui social</h2>
+                
+
+                <a href="https://youtube.com/@NAO-wn5ff?si=Fpp2Quy4Jrh8Db2E" target="_blank" class="btn-contatti nascosto cardSm justify-center text-center">
+                    <div class="w-full lg:w-1/2 flex justify-center items-center text-MyGreen-100">
+                        <i class='bx bxl-youtube text-9xl md:text-5xl'></i>
+                    </div>
+                    <div class="w-full lg:w-1/2 text-MyGreen-100">
+                        <h2 class="text-xl md:text-5xl">YouTube</h2>
+                    </div>
+                </a>
+
+                <a href="https://www.instagram.com/housenao?igsh=MXhzNHJwMXY5MWFiYw==" target="_blank"  class="btn-contatti nascosto cardSm justify-center text-center">
+                    <div class="w-full lg:w-1/2 flex justify-center items-center text-MyGreen-100">
+                        <i class='bx bxl-instagram text-9xl md:text-5xl'></i>
+                    </div>
+                    <div class="w-full lg:w-1/2 text-MyGreen-100">
+                        <h2 class="text-xl md:text-5xl">Instagram</h2>
+                    </div>
+                </a>
+                
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJvqsbHKJSzwpbDDJRSXGHBHrCnjqtMMvVJNlSCSMkvmPXxfMvbZWfxQqpsBspQSLvjCwSq" target="_blank"  class="btn-contatti nascosto cardSm justify-center text-center">
+                    <div class="w-full lg:w-1/2 flex justify-center items-center text-MyGreen-100">
+                        <i class='bx bxl-gmail text-9xl md:text-5xl'></i>
+                    </div>
+                    <div class="w-full lg:w-1/2 text-MyGreen-100">
+                        <h2 class="text-xl md:text-5xl">Email</h2>
+                    </div>
+                </a>
+
+                <a href="https://www.tiktok.com/@housenao_?_t=8jctf8FEByi&_r=1" target="_blank"  class="btn-contatti nascosto cardSm justify-center text-center">
+                    <div class="w-full lg:w-1/2 flex justify-center items-center text-MyGreen-100">
+                        <i class='bx bxl-tiktok text-9xl md:text-5xl'></i>
+                    </div>
+                    <div class="w-full lg:w-1/2 text-MyGreen-100">
+                        <h2 class="text-xl md:text-5xl">TikTok</h2>
+                    </div>
+                </a>
+            </section>
+        </main>
+        <footer>
+            <ul class="flex justify-center items-center gap-7 bg-MyGreen-200 p-10 text-slate-300 text-sm md:text-xl lg:text-2xl">
+                <li>3E Informatica</li>
+                <li class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"><a href="https://maps.app.goo.gl/fsLNdSbDr9c7TAaU8" target="_blank">ITIS Cannizzaro</a></li>
+                <li>C.O.: Radovix Immobiliare</li>
+            </ul>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

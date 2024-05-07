@@ -1,0 +1,32 @@
+.nascosto {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+.eroNascosto {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+#elemento1 {
+  transition-delay: 200ms;
+}
+
+#elemento2 {
+  transition-delay: 400ms;
+}
+
+#elemento3 {
+  transition-delay: 600ms;
+}
+
+#elemento4 {
+  transition-delay: 800ms;
+}
+
+#elemento5 {
+  transition-delay: 1s;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Nao - Progetto</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="./img/logo/logopng.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/anim.css">
+</head>
+<body class="font-primary">
+    <div class="flex flex-col min-h-screen w-full">
+        <header class="bg-MyGreen-100">
+            <nav class="max-w-screen-xl flex flex-wrap items-center justify-between sm:mx-auto py-1 px-6">
+            <img src="img/logo/logoWhite.png" alt="logo" class="w-20 h-20 z-50" />
+            <button id="btnMenu" class="sm:hidden" onclick="showMenu()">
+                <i class='bx bx-menu text-4xl text-white'></i>
+              </button>
+              <div class="hidden w-full sm:block sm:w-auto" id="menu">  
+                <ul class="flex flex-col sm:flex-row p-2 gap-6 text-white font-semibold text-sm md:text-xl ">
+                    <li class="li-menu"><a href="/">Home</a></li>
+                    <li class="li-menu"><a href="./chi_siamo.html">Chi Siamo</a></li>
+                    <li>Scopri il progetto</li>
+                    <li class="li-menu"><a href="./contattaci.html">Contattaci</a></li>
+                    <li class="li-menu"><a href="./team.html">Il team</a></li>
+                </ul> 
+                </div>
+            </nav>
+        </header>
+        <main class="flex-grow bg-house">
+            <section id="hero" class="flex flex-col justify-center text-center">
+                <h1 class="nascosto text-MyGreen-200 text-5xl md:text-7xl lg:text-9xl font-extrabold mt-10 md:mt-20 drop-shadow-lg">Il Progetto</h1>
+                    <div id="elemento1" class="cardProject nascosto">
+                        <h2 class="m-3 text-xl md:text-3xl lg:text-5xl font-semibold text-MyGreen-200 drop-shadow-lg">L'idea</h2>
+                        House Nao è un progetto rivoluzionario che si propone di integrare il robot NAO nell'industria immobiliare, apportando una serie di funzioni avanzate e innovative.
+                        Questo straordinario robot sarà in grado di misurare con precisione l'altezza delle stanze, garantendo il rispetto degli standard.
+                        Con House Nao, ogni aspetto fondamentale della valutazione immobiliare sarà coperto in modo efficiente e accurato. 
+                        Il robot, dotato di tecnologia all'avanguardia, identificherà la zona più fredda della casa, contribuendo così a ottimizzare l'efficienza energetica e migliorare il
+                        comfort abitativo.
+                    </div>
+
+                    <div id="elemento2" class="cardProject nascosto">
+                        <h2 class="m-3 text-xl md:text-3xl lg:text-5xl font-semibold text-MyGreen-200 drop-shadow-lg">Innovazione</h2>
+                        La sua capacità di condurre un tour guidato della struttura garantirà un'esperienza immersiva e informativa per potenziali acquirenti o locatari. 
+                        Questo tour dettagliato consentirà loro di esplorare ogni angolo della casa, comprendere le caratteristiche distintive e apprezzare appieno il suo valore.
+                        In sintesi, House Nao rappresenta una svolta rivoluzionaria nell'industria immobiliare, offrendo un approccio completo e tecnologicamente avanzato per valutare, 
+                        esplorare e apprezzare le proprietà con una precisione senza precedenti.
+                    </div> 
+            </section>
+        </main>
+        <footer>
+            <ul class="flex justify-center items-center gap-7 bg-MyGreen-200 p-10 text-slate-300 text-sm md:text-xl lg:text-2xl">
+                <li>3E Informatica</li>
+                <li class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"><a href="https://maps.app.goo.gl/fsLNdSbDr9c7TAaU8" target="_blank">ITIS Cannizzaro</a></li>
+                <li>C.O.: Radovix Immobiliare</li>
+            </ul>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

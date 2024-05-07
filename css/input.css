@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .bg-house {
+    /* @apply bg-no-repeat bg-center bg-cover bg-[center_center] bg-fixed relative; */
+    background: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.8) 0%,
+        rgba(255, 255, 255, 0.7) 100%
+      ),
+      url(../img/sfondo.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .btn-primary {
+    @apply m-auto mt-10 mb-10 transition ease-in-out delay-150 bg-MyGreen-100 hover:-translate-y-1 hover:scale-110 hover:bg-MyGreen-200 duration-300 hover:cursor-pointer rounded-full text-white;
+  }
+
+  .btn-contatti {
+    @apply transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:cursor-pointer rounded-full text-MyGreen-200;
+  }
+
+  .li-menu {
+    @apply transition ease-in-out text-MyGreen-50 delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:text-white;
+  }
+
+  .links {
+    @apply transition ease-in-out text-MyGreen-100 delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:text-MyGreen-200;
+  }
+
+  .card {
+    @apply flex flex-col lg:flex-row lg:items-center bg-white m-auto mt-10 mb-10 w-10/12 p-3 rounded-3xl shadow-md;
+  }
+
+  .card-reverse {
+    @apply flex flex-col-reverse lg:flex-row lg:items-center bg-white m-auto mt-10 mb-10 w-10/12 p-3 rounded-3xl shadow-md;
+  }
+
+  .cardSm {
+    @apply flex flex-col lg:flex-row lg:items-center bg-white m-auto mt-10 mb-10 w-1/2 p-3 rounded-3xl shadow-md;
+  }
+
+  .cardProject {
+    @apply flex flex-col lg:items-center bg-white m-auto mt-10 mb-10 w-10/12 p-3 rounded-3xl shadow-md;
+  }
+}

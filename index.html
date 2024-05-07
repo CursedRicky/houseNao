@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Nao - Home</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="./img/logo/logopng.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/anim.css">
+</head>
+<body class="font-primary">
+    <div class="flex flex-col min-h-screen w-full">
+        <header class="bg-MyGreen-100">
+            <nav class="max-w-screen-xl flex flex-wrap items-center justify-between sm:mx-auto py-1 px-6">
+            <img src="img/logo/logoWhite.png" alt="logo" class="w-20 h-20 z-50" />
+            <button id="btnMenu" class="sm:hidden" onclick="showMenu()">
+                <i class='bx bx-menu text-4xl text-white'></i>
+              </button>
+              <div class="hidden w-full sm:block sm:w-auto" id="menu">  
+                <ul class="flex flex-col sm:flex-row p-2 gap-6 text-white font-semibold text-sm md:text-xl ">
+                    <li>Home</li>
+                    <li class="li-menu"><a href="./chi_siamo.html">Chi Siamo</a></li>
+                    <li class="li-menu"><a href="./scopri_il_progetto.html">Scopri il progetto</a></li>
+                    <li class="li-menu"><a href="./contattaci.html">Contattaci</a></li>
+                    <li class="li-menu"><a href="./team.html">Il team</a></li>
+                </ul> 
+                </div>
+            </nav>
+        </header>
+        <main class="flex-grow bg-house">
+            <section id="hero" class="flex flex-col justify-center text-center">
+                <h1 class="nascosto text-MyGreen-200 text-5xl md:text-7xl lg:text-9xl uppercase font-extrabold mt-10 md:mt-20 drop-shadow-lg">house nao</h1>
+                <h2 id="elemento1" class="nascosto text-xl md:text-3xl lg:text-5xl font-semibold text-MyGreen-200 drop-shadow-lg">Un nuovo modo per scoprire gli immobili</h2>
+                <p id="elemento2" class="nascosto w-10/12 md:w-1/2 m-auto mt-4 text-center text-lg md:text-xl lg:text-2xl">
+                    Esplorate le vostre future case con il nostro progetto unico: unisciti a House Nao, il robot guida, per un'esperienza immersiva e interattiva nel mondo degli immobili: con NAO la ricerca della casa perfetta diventa emozionante e tecnologicamente avanzata. <br />Benvenuti nel futuro dell'esplorazione immobiliare!
+                </p>
+                <div id="elemento3" class="nascosto btn-primary w-fit text-xl md:text-3xl p-5"><a href="./chi_siamo.html">Scopri chi siamo</a></div>
+            </section>
+        </main>
+        <footer>
+            <ul class="flex justify-center items-center gap-7 bg-MyGreen-200 p-10 text-slate-300 text-sm md:text-xl lg:text-2xl">
+                <li>3E Informatica</li>
+                <li class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"><a href="https://maps.app.goo.gl/fsLNdSbDr9c7TAaU8" target="_blank">ITIS Cannizzaro</a></li>
+                <li>C.O.: Radovix Immobiliare</li>
+            </ul>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

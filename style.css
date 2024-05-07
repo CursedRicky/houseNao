@@ -1,0 +1,299 @@
+/* font: https://fonts.google.com/specimen/Raleway?query=Raleway */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* ________________utility__________________ */
+
+/* table, th, td { 
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+*/
+
+/* _________________________________________ */
+
+* {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1px;
+  /* font-weight: 500; */
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  text-decoration: none;
+}
+
+a {
+  color: inherit;
+}
+
+body {
+  margin: 0;
+  text-decoration: none;
+
+  background-image: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.8) 0%,
+      rgba(255, 255, 255, 0.7) 100%
+    ),
+    url("casavuotasfondo.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.homebg {
+  background-image: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.8) 0%,
+      rgba(255, 255, 255, 0.7) 100%
+    ),
+    url("casavuotasfondo.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  background-color: #5bb450;
+  height: 70px;
+
+  color: #ffffff;
+  font-weight: 500;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+li {
+  /* border: 3px solid black; */
+}
+
+ul,
+li {
+  padding: 0 20px;
+  text-decoration: none;
+}
+
+.logo {
+  filter: brightness(100);
+}
+
+.logoMd {
+  width: 50px;
+  height: 50px;
+}
+
+#tabNavig {
+  /* border: 3px solid black; */
+  color: white;
+}
+
+.main-container {
+  display: flex;
+  /* border: 3px solid black; */
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+.left-home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  /* margin-left: 5%; */
+  text-shadow: 2px 2px 10px rgb(172, 172, 172);
+}
+
+.housenao {
+  color: #3b8132;
+  /* border: 10px solid black; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  //font-size: 800%;
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+
+.sottotitolo {
+  color: #46923c;
+  /* border: 10px solid black; */
+  font-size: 250%;
+  font-weight: 600;
+  letter-spacing: -1px;
+}
+
+.parag-home {
+  display: flex;
+  width: 700px;
+  height: auto;
+  overflow-wrap: break-word;
+  text-wrap: wrap;
+  box-sizing: inherit;
+  object-fit: contain;
+
+  margin-top: 20px;
+  margin-bottom: 35px;
+  /* border: 1px solid black; */
+
+  font-size: 165%;
+  text-align: center;
+  /* text-justify: inter-word; */
+}
+
+.buttons1 {
+  padding: 20px 35px;
+  background-color: #5bb450;
+  color: white;
+  outline: none;
+  border: none;
+  font-size: 200%;
+  font-weight: 300;
+  border-radius: 50px;
+  box-shadow: 2px 2px 10px rgb(152, 152, 152);
+
+  margin-bottom: 10px;
+}
+
+.buttons1:hover {
+  background: #478d3e;
+}
+
+.naoimg {
+  /* background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)); */
+  margin-right: 0;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #537c4f;
+  height: 100px;
+  width: 100%;
+}
+
+.footer-nav {
+  color: white;
+  font-weight: 100;
+}
+
+/* -----------chi siamo----------- */
+
+.chisiamo-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.titolo-s2 {
+  margin-bottom: 30px;
+  text-align: center;
+  text-shadow: 2px 2px 10px rgb(172, 172, 172);
+}
+
+.chisiamo {
+  color: #3b8132;
+  /* border: 10px solid black; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  font-size: 700%;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+.h2s2 {
+  color: #46923c;
+  /* border: 10px solid black; */
+  font-size: 250%;
+  font-weight: 600;
+  letter-spacing: -1px;
+}
+
+/* .chisiamo-container > div { 
+    background-color: rgb(233, 233, 233);
+    border-radius: 15px;
+    margin-right: 2%;
+    margin-left: 2%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+*/
+
+.parag-team {
+  display: flex;
+  width: 500px;
+  height: auto;
+  overflow-wrap: break-word;
+  text-wrap: wrap;
+  box-sizing: inherit;
+  object-fit: contain;
+
+  margin-top: 5px;
+  margin-bottom: 30px;
+  /* border: 1px solid black; */
+
+  font-size: 140%;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.riquadro {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+
+  background-color: rgb(237, 237, 237);
+  border-radius: 20px;
+
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  width: 90%;
+  margin: 5px 10px 30px;
+
+  box-shadow: 2px 2px 10px rgb(99, 99, 99);
+}
+
+.imgs2 {
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.buttons2 {
+  padding: 15px 30px;
+  background-color: #5bb450;
+  color: white;
+  outline: none;
+  border: none;
+  font-size: 120%;
+  font-weight: 300;
+  border-radius: 50px;
+  box-shadow: 2px 2px 10px rgb(152, 152, 152);
+
+  margin-bottom: 10px;
+}
+
+.buttons2:hover {
+  background: #478d3e;
+}
+
+.active {
+  color: red;
+}

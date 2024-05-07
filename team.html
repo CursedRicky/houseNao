@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Nao - Il Team</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/anim.css">
+    <link rel="shortcut icon" href="./img/logo/logopng.png" type="image/x-icon">
+</head>
+<body class="font-primary">
+    <div class="flex flex-col min-h-screen w-full">
+        <header class="bg-MyGreen-100">
+            <nav class="max-w-screen-xl flex flex-wrap items-center justify-between sm:mx-auto py-1 px-6">
+            <img src="img/logo/logoWhite.png" alt="logo" class="w-20 h-20 z-50" />
+            <button id="btnMenu" class="sm:hidden" onclick="showMenu()">
+                <i class='bx bx-menu text-4xl text-white'></i>
+              </button>
+              <div class="hidden w-full sm:block sm:w-auto" id="menu">  
+                <ul class="flex flex-col sm:flex-row p-2 gap-6 text-white font-semibold text-sm md:text-xl ">
+                    <li class="li-menu"><a href="/">Home</a></li>
+                    <li class="li-menu"><a href="./chi_siamo.html">Chi Siamo</a></li>
+                    <li class="li-menu"><a href="./scopri_il_progetto.html">Scopri il progetto</a></li>
+                    <li class="li-menu"><a href="./contattaci.html">Contattaci</a></li>
+                    <li>Il team</li>
+                </ul> 
+                </div>
+            </nav>
+        </header>
+        <main class="flex-grow bg-house">
+            <section id="hero" class="flex flex-col justify-center text-center">
+                <h1 class=" nascosto text-MyGreen-200 text-5xl md:text-7xl lg:text-9xl font-extrabold mt-10 md:mt-20 drop-shadow-lg">Il team</h1>
+                <h2 id="elemento1" class=" nascosto text-xl md:text-3xl lg:text-5xl font-semibold text-MyGreen-200 drop-shadow-lg">Conosci il team House Nao</h2>
+                
+                <section id="elemento2" class="nascosto">
+                    <div class="card">
+                        <div class="w-full lg:w-1/2">
+                            <h2 class="text-2xl md:text-3xl lg:text-5xl font-semibold text-MyGreen-200 drop-shadow-lg my-4">Team sviluppo</h2>
+                            <p class="text-justify p-4 text-lg md:text-xl">
+                                Programmazione del NAO e del Raspberry Pi: <a class="links" href="https://www.instagram.com/_cursed.rik_?igsh=MTVobm85NmkzOGNoZg==">Marzi Riccardo</a>, <a class="links" href="https://www.instagram.com/sebaa.20006?igsh=MW5mYmhyNHkxaGRzYQ==">Sebastie Ayala</a>, <a class="links" href="https://www.instagram.com/_michele_narciso_?igsh=MTZvODUzdXFoN29lag==">Narciso Michele</a>
+                            </p>
+                    </div>
+                    <div class="w-full lg:w-1/2 flex justify-center">
+                        <img class="rounded-3xl w-auto" src="./img/sviluppo.jfif" alt="" />
+                    </div>
+                </section>
+
+                <section id="elemento3" class="nascosto">
+                    <div class="card-reverse">
+                        <div class="w-full lg:w-1/2 flex justify-center">
+                            <img class="rounded-3xl w-auto" src="https://cdn.pixabay.com/photo/2016/03/27/18/54/technology-1283624_1280.jpg" alt="" />
+                        </div>
+                        <div class="w-full lg:w-1/2">
+                            <h2 class="text-2xl md:text-3xl lg:text-5xl font-semibold text-MyGreen-200 drop-shadow-lg my-4">Web Developers</h2>
+                            <p class="text-justify p-4 text-lg md:text-xl">
+                                Sito Web: <a class="links" href="https://www.instagram.com/_cursed.rik_?igsh=MTVobm85NmkzOGNoZg==">Marzi Riccardo</a>, <a class="links" href="https://www.instagram.com/na.v.aa?igsh=czUzcTN3Nm1vOHVh">Battaglia Valerio</a>, <a class="links" href="https://www.instagram.com/massimiliano.ammiratii?igsh=MTFnYThjYm91YTZkMQ==">Ammirati Massimiliano</a>, <a class="links" href="https://www.instagram.com/_.bottazzini._?igsh=MXAzZnh5bGhybGtqMQ==">Bottazini Luca</a>
+                            </p>
+                    </div>
+                </section>
+
+                <section id="elemento4" class="nascosto">
+                    <div class="card">
+                        <div class="w-full lg:w-1/2">
+                            <h2 class="text-2xl md:text-3xl lg:text-5xl font-semibold text-MyGreen-200 drop-shadow-lg my-4">Social Media Team</h2>
+                            <p class="text-justify p-4 text-lg md:text-xl">
+                                Social Media: <a class="links" href="https://www.instagram.com/chriku.__?igsh=czI0cHVwa2U0bjMz">Vodola Christian</a>, <a class="links" href="https://www.instagram.com/angeloronchi_?igsh=MWNtOTl2OTF4d3UxNQ==">Ronchi Angelo</a>, <a class="links" href="https://www.instagram.com/_.paredess_?igsh=MWd1dTN6OTFncnBkMQ==">Marco Paredes</a>
+                            </p>
+                    </div>
+                    <div class="w-full lg:w-1/2 flex justify-center">
+                        <img class="rounded-3xl w-auto" src="https://cdn.pixabay.com/photo/2015/10/21/08/22/media-998990_1280.jpg" alt="" />
+                    </div>
+                </section>
+
+        </main>
+        <footer>
+            <ul class="flex justify-center items-center gap-7 bg-MyGreen-200 p-10 text-slate-300 text-sm md:text-xl lg:text-2xl">
+                <li>3E Informatica</li>
+                <li class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"><a href="https://maps.app.goo.gl/fsLNdSbDr9c7TAaU8" target="_blank">ITIS Cannizzaro</a></li>
+                <li>C.O.: Radovix Immobiliare</li>
+            </ul>
+        </footer>
+    </div>
+    <script defer src="js/script.js"></script>
+</body>
+</html>
